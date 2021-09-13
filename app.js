@@ -19,4 +19,14 @@ const SvG = (input) => {
 
 Class("func", 0).addEventListener("click", () => {
     Class("result", 0).value = SvG(Class("enter", 0).value)
+    if (Class("enter", 0).value.length > 0) {
+        Class("result", 0).select()
+        Class("result", 0).setSelectionRange(0, 99999)
+        navigator.clipboard.writeText(Class("result", 0).value)
+        Class("copied", 0).style.display = "flex"
+    }
+})
+
+Class("close", 0).addEventListener("click", () => {
+    Class("copied", 0).style.display = "none"
 })
