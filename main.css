@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "off";
+    src: url("./font/Offside-Regular.ttf");
+}
+html, body{
+    margin:0;
+    padding:0;
+    background:#202020;
+}
+*{
+    outline:none;
+    text-decoration: none;
+    font-family: "off";
+}
