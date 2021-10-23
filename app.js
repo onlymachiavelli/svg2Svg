@@ -25,7 +25,6 @@ Class("func", 0).addEventListener("click", () => {
     if (Id("web").checked) check = true 
     else if (Id("native").checked) check = false 
     else check = null
-    console.log(check)
     Class("result", 0).value = SvG(Class("enter", 0).value, check)
     if(check !== null){
         if (Class("enter", 0).value.length > 0) {
