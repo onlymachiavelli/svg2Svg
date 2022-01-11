@@ -1,5 +1,5 @@
 <p align="center">
-  <h1>react-native-svg Syntax fixer</h1>
+  <h1>SVG Syntax Fixer</h1>
 </p>
 <p>Visit <a href="https://snative.vercel.app/">This Link</a></p>
 <p>
